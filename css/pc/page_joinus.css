@@ -1,0 +1,77 @@
+/****************************************
+JOINUS---------关于杏缘样式
+****************************************/
+
+.content{
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+.joinus_box1{
+	clear: both;
+	overflow: hidden;
+	text-align: center;
+}
+
+.joinus_box2{
+	overflow: hidden;
+}
+
+.joinus_box2 .content{
+	width: 948px;
+}
+
+.joinus_box2 .left{
+	min-height: 1300px;
+	width: 220px;
+	float: left;
+	padding: 20px 0 30px 0;
+	color: #494949;
+	background-color: #f9fbfa;
+}
+
+.joinus_box2 .left ul li{
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	font-size: 16px;
+	border-bottom: 1px solid #D7D7D7;
+}
+
+.joinus_box2 .left ul li a{
+	margin-left: 50px;
+}
+
+.joinus_box2 .right{
+	width: 700px;
+	float: right;
+}
+
+.position{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.position .title{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 34px;
+	color: #333333;
+	border-left: 4px solid #62b95c;
+	padding-left: 10px;
+}
+
+.position .subtitle{
+	margin-top: 10px;
+	font-weight: bold;
+	height: 34px;
+	line-height: 34px;
+	color: #333333;
+}
+
+.position ul li{
+	list-style-type: disc;
+	list-style-position: inside;
+	color: #333333;
+}

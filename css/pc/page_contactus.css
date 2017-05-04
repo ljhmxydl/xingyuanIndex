@@ -1,0 +1,96 @@
+/****************************************
+CONTACTUS---------关于杏缘样式
+****************************************/
+
+.content{
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+.contactus_box1{
+	text-align: center;
+}
+
+.contactus_box2 .content{
+	width: 948px;
+}
+
+.contactus_box2 .left{
+	min-height: 600px;
+	width: 220px;
+	float: left;
+	color: #666666;
+	background-color: #f9fbfa;
+}
+
+.contactus_box2 .left .qrcodes{
+	padding-top: 30px;
+	text-align: center;
+}
+
+.contactus_box2 .left .qrcodes img{
+	width: 170px;
+	height: auto;
+}
+
+
+.contactus_box2 .right{
+	width: 720px;
+	float: right;
+	padding-top: 30px;
+}
+
+.contactus_box2 .right .title .t1{
+	font-size: 20px;
+	color: #62b95c;
+}
+
+.contactus_box2 .right .title .t2{
+	font-size: 16px;
+	line-height: 32px;
+}
+
+.contactus_box2 .right .com {
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+.contactus_box2 .right ul li{
+	line-height: 40px;
+}
+
+.contactus_box2 .right .com ul li {
+	float: left;
+	padding-right: 40px;
+}
+
+.contactus_box2 .right .com .tel{
+	width: 250px;
+}
+
+.contactus_box2 .right .subtitle{
+	clear: both;
+	font-size: 18px;
+	line-height: 36px;
+	color:#62b95c;
+}
+
+.contactus_box2 .right .bd,.pr {
+	margin: 30px auto;
+}
+
+.tel{
+	padding-left: 30px;
+	background: url(../../images/tel.png) no-repeat left center;
+}
+
+.email{
+	padding-left: 30px;
+	background: url(../../images/email.png) no-repeat left center;
+}
+
+.addr{
+	padding-left: 30px;
+	background: url(../../images/addr.png) no-repeat 5px center;
+}

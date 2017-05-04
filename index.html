@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>杏缘医生-中国医生的职业发展合伙人</title>
+	<meta name="description" content="杏缘医生是一个为医生服务的助手平台，有效解决医生与患者之间的沟通互动和续诊服务。杏缘号作为医生全新的联系方式，可以在保密手机号和微信号的同时，连接自己感兴趣的患者，提升患者治疗依从性，从而提升更优质的服务。">
+    <meta name="keywords" content="杏缘,杏缘医生,杏缘号,中医,医生">
+    <link rel="stylesheet" type="text/css" href="css/pages.css"  media="screen and (min-width: 948px)"/>
+	<link rel="stylesheet" type="text/css" href="css/pages_mobile.css" media="screen and (min-width: 320px) and (max-width: 948px)"/>
+    <link rel="stylesheet" type="text/css" href="css/swiper-3.4.2.min.css"/>
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/swiper-3.4.2.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var mySwiper = new Swiper ('.swiper-container', {
+				loop: true,
+				autoplay: 3000,
+				pagination: '.swiper-pagination',
+				paginationClickable: true
+			});
+			
+			var slider = $('#slider');
+            var slider_main = $('#slider_main');
+            var allLis = slider_main.children();
+
+            var json = [
+                {   //  1
+                    width: 280,
+                    marginLeft: -550,
+                    opacity: 0.5,
+                    z: 2
+                },
+                {  // 2
+                    width: 300,
+                    opacity: 1,
+                    marginLeft: -150,
+                    z: 4
+                },
+                {   // 3
+                    width: 280,
+                    marginLeft: 250,
+                    opacity: 0.5,
+                    z: 2
+                },
+                {  // 4
+                    width: 280,
+                    opacity: 0,
+                    marginLeft: -150,
+                    z: 0
+                }
+            ];
+
+            $(".index_box3 .content li").click(function(){
+                var index = $(this).index();
+                changePosition(index+3)
+
+            });
+
+            changePosition(1);
+
+
+            function changePosition(index) {
+                for (var i = 0; i < json.length; i++) {
+                    var item = json[(i+index)%4];
+                    allLis.eq(i).animate({
+                        width: item.width,
+                        top: item.top,
+                        marginLeft: item.marginLeft,
+                        opacity: item.opacity,
+                        zIndex: item.z
+                    },1000)
+                }
+            }
+		});		
+	</script>
+</head>
+<body>
+<div id="container">
+	<script src="js/header.js"></script>
+	<div class="index_box1">
+		<div class="content">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="images/index_banner1.png"/></div>
+					<div class="swiper-slide"><img src="images/index_banner2.png"/></div>
+					<div class="swiper-slide"><img src="images/index_banner3.png"/></div>
+					<div class="swiper-slide"><img src="images/index_banner4.png"/></div>
+					<div class="swiper-slide"><img src="images/index_banner5.png"/></div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+	</div>
+	<div class="index_box2">
+		<div class="content">
+			<img src="images/index_flow.png"/>
+		</div>
+	</div>
+	<div class="index_box3">
+		<div class="content">
+			<ul>
+				<li><span><img src="images/index_box3_icon_1.png" id="images/index_box3_1.png"/></span><br/><span>诊所</span></li>
+				<li><span><img src="images/index_box3_icon_2.png" id="images/index_box3_2.png"/></span><br/><span>在线问诊</span></li>
+				<li><span><img src="images/index_box3_icon_3.png" id="images/index_box3_3.png"/></span><br/><span>在线药房</span></li>
+				<li><span><img src="images/index_box3_icon_4.png" id="images/index_box3_4.png"/></span><br/><span>我</span></li>
+			</ul>
+		</div>
+		<div id="slider">
+            <ul id="slider_main">
+                <li><img src="images/index_box3_1.png" alt=""></li>
+                <li><img src="images/index_box3_2.png" alt=""></li>
+                <li><img src="images/index_box3_3.png" alt=""></li>
+                <li><img src="images/index_box3_4.png" alt=""></li>
+            </ul>
+        </div>
+	</div>
+	<div class="index_box4">
+		<div class="content">
+			<img src="images/index_25.png"/>
+			<img src="images/index_26.png"/>
+		</div>
+	</div>
+	<script src="js/footer.js"></script>
+</div>
+</body>
+</html>

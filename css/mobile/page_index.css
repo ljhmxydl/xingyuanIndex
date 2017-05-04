@@ -1,0 +1,48 @@
+/****************************************
+INDEX---------首页样式
+****************************************/
+
+.index_products{
+	margin: 5px auto;
+	background-color: #F1F1F1;
+	text-align: center;
+}
+
+.index_products .title{
+	width: 55px;
+	margin: 20px 10px 20px 22px;
+}
+
+.index_products ul{
+	position: relative;
+	width: 320px;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+}
+
+.index_products ul li{
+	display: inline;
+	float: left;
+	width: 80px;
+	text-align: center;
+}
+
+.index_products ul li img{
+	width: 75px;
+}
+
+.index_partners{
+	margin: 20px auto;
+	text-align: center;
+}
+
+.index_partners .title{
+	width: 100px;
+	margin-bottom: 10px;
+}
+
+.index_partners div img{
+	width: 100%;
+}

@@ -1,0 +1,44 @@
+/****************************************
+HEADER---------头部区样式
+****************************************/
+
+.header{
+	height: 40px;
+	margin-top: 10px;
+}
+
+.header .logo{
+	float: left;
+	width: 50px;
+}
+
+.header .logo a img{
+	width: 40px;
+	margin-top: 14px;
+	margin-left: 5px;
+}
+
+#nav{
+	float: left;
+	width: auto;
+	height: auto;
+}
+
+#nav li{
+	float: left;
+	width: 60px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#nav li a{
+	padding:1px 2px 1px 2px;
+	font-size: 9pt !important;
+}
+
+#nav li a:hover{
+	color: #FFF;
+	background-color: #44B3C7;
+}

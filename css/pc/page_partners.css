@@ -1,0 +1,73 @@
+/****************************************
+PARTNERS---------合作机构样式
+****************************************/
+
+.content{
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+.partners_box1{
+	clear: both;
+	overflow: hidden;
+	text-align: center;
+}
+
+.partners_box2{
+	overflow: hidden;
+	text-align: center;
+	padding: 20px 10px;
+}
+
+.partners_box2 .content{
+	width: 948px;
+	text-align: left;
+}
+
+.partners_box2 img{
+	width: 400px;
+	float: left;
+}
+
+.line {
+	width: 948px;
+	height: 1px;
+	margin: 0 auto;
+	line-height: 1px;
+	font-size: 1px;
+	background-color: #F6F6F6;
+}
+
+.partners_box3{
+	overflow: hidden;
+	text-align: center;
+	padding: 20px 10px;
+}
+
+.partners_box3 .content{
+	width: 948px;
+	text-align: left;
+}
+
+.partners_box3 img{
+	width: 400px;
+	height: auto;
+	float: left;
+}
+
+.partner_intro{
+	width: 510px;
+	float: right;
+	padding: 15px;
+}
+
+.partner_intro span{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 36px;
+}
+
+.partner_intro p{
+	text-indent: 28px;
+}

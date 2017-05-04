@@ -1,0 +1,53 @@
+/****************************************
+FOOTER---------底部区样式
+****************************************/
+
+.footer{
+	position: relative;
+	clear: both;
+	height: 220px;
+	background-color: #303030;
+	color: #D1D1D1;
+	text-align: center;
+	overflow: hidden;
+
+}
+
+.footer .ul2{
+	margin: 0 auto 0 auto;
+}
+
+.footer .ul2 li{
+	display: inline;
+	height: 100px;
+	line-height: 100px;
+	margin: 0 12px 0 18px;
+
+}
+
+.footer .ul2 li a{
+	color: #D1D1D1;
+}
+.footer .ul2 li a:hover{
+	color: #5cca5c;
+}
+
+.footer .addr{
+	height: 40px;
+	line-height: 30px;
+}
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+

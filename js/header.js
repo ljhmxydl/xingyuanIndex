@@ -1,0 +1,17 @@
+document.write(
+	"<div id=\"header\">"
+	+"	<div class=\"content\">"
+	+"		<div class=\"logo\">"
+	+"			<a href=\"##\"><img src=\"images/logo.png\" /></a>"
+	+"		</div>"
+	+"		<ul id=\"nav\">"
+	+"			<li><a id=\"index\" href=\"index.html\">首页</a></li>"
+	+"			<li><a id=\"parters\" href=\"parters.html\">合作机构</a></li>"
+	+"			<li><a id=\"aboutus\" href=\"aboutus.html\">关于杏缘</a></li>"
+	+"			<li><a id=\"team\" href=\"team.html\">团队介绍</a></li>"
+	+"			<li><a id=\"contactus\" href=\"contactus.html\">联系我们</a></li>"
+	+"			<li><a id=\"joinus\" href=\"joinus.html\">加入我们</a></li>"
+	+"		</ul>"
+	+"	</div>"
+	+"</div>"
+);

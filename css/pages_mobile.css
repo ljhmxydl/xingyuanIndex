@@ -1,0 +1,11 @@
+@import url(glob_reset.css);
+@import url(mobile/glob_header.css);
+@import url(mobile/glob_footer.css);
+
+@import url(mobile/page_index.css);
+
+
+#container{
+	width: 100%;
+	margin: 0 auto;
+}

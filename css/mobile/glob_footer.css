@@ -1,0 +1,111 @@
+/****************************************
+FOOTER---------底部区样式
+****************************************/
+
+/*底部*/
+.footer{
+	position: relative;
+	clear: both;
+	height: 230px;
+	background-color: #1F1F1F;
+	color: #D1D1D1;
+	text-align: center;
+	overflow: hidden;
+	font-size: 8pt;
+}
+
+
+.footer .addr{
+	background: url(../../images/icon_addr.png) no-repeat left center;
+}
+
+.footer .mail{
+	background: url(../../images/icon_mail.png) no-repeat left center;
+}
+
+.footer .tel{
+	background: url(../../images/icon_tel.png) no-repeat left center;
+}
+
+/*解决iOS下微信浏览器给电话号码自动加拨号链接导致电话号码变色的问题*/
+.footer .tel a{
+	color: #D1D1D1;
+}
+
+.footer .ul1{
+	margin-top: 10px;
+}
+
+.footer .ul1 li{
+	width: 100%;
+	padding: 4px 0 4px 32px;
+	margin-right:10px;
+	text-align: left;
+	color: #D1D1D1 !important;
+}
+
+.footer .ul2{
+	margin: 15px auto 0 auto;
+}
+
+.footer .ul2 li{
+	display: inline;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 5px 0 5px;
+
+}
+
+.footer .ul2 li a{
+	color: #D1D1D1;
+}
+.footer .ul2 li a:hover{
+	color: #FF8808;
+}
+
+.footer .split{
+	margin: 0 auto;
+	width: 450px;
+	height: 1px;
+	line-height: 1px;
+	border: none;
+	background-color:#D1D1D1;
+}
+
+.footer .d1{
+	margin-top: 15px;
+}
+
+.footer .d2{
+	margin: 5px;
+	height: 55px;
+	line-height: 55px;
+}
+
+#hrinfo{
+	display: none;
+	position: absolute;
+	left: 15px;
+	top: 10px;
+	width: 340px;
+	height: 75px;
+	padding: 5px 15px;
+	color: #FFF;
+	background-color: #000;
+	text-align: left;
+	filter: alpha(opacity=100);opacity:0.85;
+	z-index: 10000;
+}
+
+#hrinfo div{
+	position: relative;
+	margin: 0;
+	line-height: 20px;
+	font-size: 7pt;
+}
+
+#hrinfo .d1{
+	line-height: 30px;
+	font-size: 10pt;
+	font-weight: bold;
+}

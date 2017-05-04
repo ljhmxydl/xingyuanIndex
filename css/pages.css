@@ -1,0 +1,29 @@
+@import url(glob_reset.css);
+@import url(pc/glob_header.css);
+@import url(pc/glob_footer.css);
+
+@import url(pc/page_index.css);
+@import url(pc/page_partners.css);
+@import url(pc/page_aboutus.css);
+@import url(pc/page_joinus.css);
+@import url(pc/page_contactus.css);
+@import url(pc/page_team.css);
+
+#container{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+

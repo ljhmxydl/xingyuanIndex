@@ -1,0 +1,97 @@
+/****************************************
+TEAM---------合作机构样式
+****************************************/
+
+.content{
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+.team_box1{
+	clear: both;
+	overflow: hidden;
+	text-align: center;
+}
+
+.team_box2{
+	overflow: hidden;
+	text-align: center;
+	padding: 20px 10px;
+}
+
+.team_box2 .content{
+	width: 948px;
+	text-align: left;
+}
+
+.team_box2 .team_img1{
+	width: 316px;
+	height: auto;
+	float: left;
+}
+
+.line {
+	width: 948px;
+	height: 1px;
+	margin: 0 auto;
+	line-height: 1px;
+	font-size: 1px;
+	background-color: #F6F6F6;
+}
+
+.team_box3{
+	overflow: hidden;
+	text-align: center;
+	padding: 20px 10px;
+}
+
+.team_box3 .content{
+	width: 948px;
+	text-align: left;
+}
+
+.team_box3 .team_img2{
+	width: 316px;
+	height: auto;
+	float: right;
+}
+
+.team_box2 .team_img3{
+	width: 272px;
+	height: auto;
+	float: left;
+}
+
+.team_intro{
+	width: 620px;
+	float: right;
+	padding: 5px;
+}
+
+.team_intro .name{
+	font-size: 18px;
+	font-weight: bold;
+	color: #333333;
+}
+
+.team_intro .title{
+	font-size: 16px;
+	color: #333333;
+	text-align: left;
+}
+
+.team_box3 .name{
+	text-align: right;
+}
+
+.team_box3 .title{
+	text-align: right;
+}
+
+.team_intro p{
+	text-indent: 28px;
+	line-height: 200%;
+	margin: 10px auto;
+	color: #666666;
+}

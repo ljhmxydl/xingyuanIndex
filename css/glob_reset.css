@@ -1,0 +1,59 @@
+/******************************
+RESET---------重置默认样式
+******************************/
+body,div,h1,h2,h3,h4,h5,p,form,ul,li,dl,dt,dd,span,a,img,em,i,strong,b,input,select,textarea{
+	margin:0px;
+	padding:0px;
+}
+
+div,ul{
+	overflow: hidden;
+}
+
+li{
+	list-style:none;
+}
+
+img{
+	border:0 none;
+	vertical-align:top;
+}
+
+em,i{
+	font-style:normal;
+}
+
+b,em{
+	font-weight: bold;
+}
+
+a{
+	text-decoration:none;
+	color:#3d3d3d;
+}
+
+a:hover{
+	color:#5cca5c;
+}
+
+body{
+	font-family: 微软雅黑;
+	font-size:14px;
+	color:#3f3c33;
+	background:#ffffff;
+}
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
